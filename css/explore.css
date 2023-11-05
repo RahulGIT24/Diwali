@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../Images/explorebg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.heading h1{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 23px;
+}
+
+.cards img{
+    width: 20rem;
+}
+
+.cards a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.cards a:hover{
+    color: red;
+}
+
+.card1, .card2{
+    border: 1px solid black;
+    padding: 10px 12px;
+    background: #000;
+    border-radius: 12px;
+}
+
+#btn {
+    margin-top: 12px;
+    padding: 7px 13px;
+    font-size: 15px;
+    background: black;
+    border: 1px solid;
+    border-radius: 29px;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover {
+    color: black;
+    background-color: white;
+}
