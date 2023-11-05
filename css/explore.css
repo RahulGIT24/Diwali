@@ -44,6 +44,12 @@ body {
     padding: 10px 12px;
     background: #000;
     border-radius: 12px;
+    transition: transform  0.3s ease-in-out;
+
+}
+
+.card1:hover , .card2:hover{
+    transform: scale(1.1);
 }
 
 #btn {
