@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background: url("../Images/explorebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button img {
+    height: 29px;
+    width: 31px;
+}
+
+button {
+    text-align: center;
+}
+
+main h1 {
+    text-align: center;
+    margin: 23px 0;
+}
+
+button {
+    background: black;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+button:hover {
+    border-color: white;
+}
+
+button img {
+    filter: invert(1);
+}

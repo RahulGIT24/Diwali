@@ -23,12 +23,9 @@ body {
     align-items: center;
     flex-direction: column;
     color: white;
-    transition: transform  0.3s ease-in-out;
+    width: 100%;
 }
 
-.container:hover {
-    transform: scale(1.01);
-}
 
 .container div p {
     text-align: center;
@@ -54,5 +51,5 @@ body {
 #btn:hover {
     color: black;
     background-color: white;
-    transform: scale(1.01);
+    transform: scale(1.3);
 }
