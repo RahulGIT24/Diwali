@@ -1,11 +1,11 @@
 let audio1 = new Audio();
-audio1.src = "../audio/LakshiMaa.mp3";
+audio1.src = "./audio/LakshiMaa.mp3";
 
 let audio2 = new Audio();
-audio2.src = "../audio/ganeshAarti.mp3";
+audio2.src = "./audio/ganeshAarti.mp3";
 
 let audio3 = new Audio();
-audio3.src = "../audio/vishnuji.mp3";
+audio3.src = "./audio/vishnuji.mp3";
 
 function playAudio1() {
     audio1.play();
