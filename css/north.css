@@ -11,6 +11,10 @@ body {
     color: black;
 }
 
+.images img{
+    margin-bottom: 12px;
+}
+
 .container p{
     padding: 12px 23px;
     font-size: 20px;
@@ -29,6 +33,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .images img{
