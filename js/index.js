@@ -12,6 +12,7 @@ function playAudio1() {
     stopAudio2();
     stopAudio3();
 }
+
 function pauseAudio1() {
     audio1.pause();
 }
@@ -25,9 +26,11 @@ function playAudio2() {
     stopAudio3();
     audio2.play();
 }
+
 function pauseAudio2() {
     audio2.pause();
 }
+
 function stopAudio2() {
     audio2.pause();
     audio2.currentTime = 0;
@@ -38,9 +41,11 @@ function playAudio3() {
     stopAudio2();
     audio3.play();
 }
+
 function pauseAudio3() {
     audio3.pause();
 }
+
 function stopAudio3() {
     audio3.pause();
     audio3.currentTime = 0;
